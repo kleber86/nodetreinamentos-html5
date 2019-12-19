@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <title>Tabelas</title>
-    </head>
-    <body>
-        <h1>Tabelas</h1>
-        <table border="1">
-            <caption>Cadastro de clientes</caption>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <h1>Tabelas</h1>
+    <table border="1">
+        <caption>Cadastro de clientes</caption>
+        <thead>
             <tr>
                 <th>Nome:</th>
                 <th>E-mail:</th>
                 <th>Telefone</th>
                 <th>Cargo</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>Rodrigo</td>
                 <td>rodrigo@email.com</td>
@@ -25,9 +30,14 @@
                 <td>maria@email.com</td>
                 <td>99 9999-9999</td>
             </tr>
+        </tbody>
+
+        <tfoot>
             <tr>
                 <td colspan="4">Total: 2</td>
             </tr>
-        </table>
-    </body>
+        </tfoot>
+    </table>
+</body>
+
 </html>
